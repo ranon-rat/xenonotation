@@ -1,0 +1,9 @@
+{
+	"description": "A simple website that parses xenonotation stuff",
+	"license": "MIT",
+	"authors": [
+		"ranon-rat"
+	],
+	"copyright": "Copyright © 2026, ranon-rat",
+	"name": "xenonotation"
+}

@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/xenonotation
+xenonotation.so
+xenonotation.dylib
+xenonotation.dll
+libxenonotation.a
+xenonotation.a
+xenonotation.lib
+xenonotation-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
