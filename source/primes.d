@@ -127,6 +127,8 @@ size_t[] factorizeNumber(shared(PrimeGenerator) generator, size_t n)
 
     check_again: foreach (prime; primes)
     {
+        if (prime > number)
+            continue;
         if (number % prime == 0)
         {
             // the generator has found every prime that has come before that number

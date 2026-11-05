@@ -16,7 +16,7 @@ void main()
 		{
 			auto xenoNotation = number2xenonotation(generator, i);
 			auto result = xenonotation2number(generator, xenoNotation);
-			writeln(i, " xenonotation: ", xenoNotation, "\t\t conversion:", result);
+			writeln(i, " xenonotation: ", xenoNotation, "\t\t conversion: ", result);
 		}
 		catch (Exception e)
 		{
